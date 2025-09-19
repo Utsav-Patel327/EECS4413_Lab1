@@ -3,11 +3,13 @@
     background-color: rgb(255, 255, 255);
     padding: 10px; padding-top:0px;
     width: 300px;
+    border: 5px solid rgb(106, 255, 194);
+    text-align: center;
 }
 
 
 #box button {
-    width: 10px;
+    width: 50px;
     padding: 2px;
 }
 

@@ -7,7 +7,7 @@
   
  
   <link rel="stylesheet" href="light.css" type="text/css" >
-  
+  <script src="light.js"></script>
   
 </head>
 <body>
@@ -16,10 +16,14 @@
   <h3 id="message">click button to turn on/off light</h3>
     <img id="light" src="images/light/light_0.jpg"><br>
 	
-	<!-- add five buttons use <button> </button> -->
- 	....
+    
+ 	<button onclick="lightOn(1)">ON</button>
+ 	<button onclick="lightOn(2)">ON</button>
+ 	<button onclick="lightOn(3)">ON</button>
+ 	<button onclick="lightOn(4)">ON</button>
+ 	<button onclick="lightOn(5)">ON</button>
 	
-	<div id="off"> <button >OFF</button></div>
+	<div id="off"> <button onclick="lightOn(0)">OFF</button></div>
   
   </div> 
 </body>

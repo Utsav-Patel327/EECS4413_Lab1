@@ -22,7 +22,9 @@ p {
   background-color: rgb(220,220,220);
 }
 
- 
+.ig {
+  text-align: center;
+}
 
  .fieldName {
    display: inline-block;
